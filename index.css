@@ -39,7 +39,7 @@ header a:hover
 
 
 
-#main-doc
+main
 {
         background-color: rgb(255, 255, 255);
         width: 100%;
@@ -49,7 +49,7 @@ header a:hover
         display: flex;
 }
 
-main .main-section
+main .left
 {
         background-color: green;
         width: 30%;
@@ -57,13 +57,13 @@ main .main-section
         box-sizing: border-box;
         margin: auto 0;
 }
-main .main-section .down
+main .left .down
 {
         background-color: rgb(194, 190, 190);
         width: 100%;
         height: 75vh;
 }
-main .main-section .down ul
+main .left .down ul
 {
         width: 90%;
         height: auto;
@@ -71,7 +71,7 @@ main .main-section .down ul
         list-style: none;
        
 }
-main .main-section .down ul li a
+main .left .down ul li a
 {
         color: black;
         box-sizing: border-box;
@@ -80,7 +80,7 @@ main .main-section .down ul li a
         text-decoration: none;
 }
 
-main .main-section .up
+main .left .up
 {
         background-color: rgb(233, 229, 229);
         width: 100%;
@@ -90,7 +90,7 @@ main .main-section .up
 
 
 
-main .main-section .up p
+main .left .up p
 {
         color: black;
         display: table-cell;
@@ -98,7 +98,7 @@ main .main-section .up p
         font-size: 1.5rem;
 }
 
-main .main-section
+main .right
 {
         background-color: rgb(224, 223, 223);
         width: 70%;
